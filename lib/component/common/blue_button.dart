@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class BlueButton extends StatelessWidget {
-  const BlueButton({super.key});
+  final String buttonText;
+  const BlueButton({
+    super.key, required this.buttonText,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +27,7 @@ class BlueButton extends StatelessWidget {
               ),
             ),
             child: Text(
-              'Continue with KakaoTalk',
+              buttonText,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Color(0xFFF7F9F9),
