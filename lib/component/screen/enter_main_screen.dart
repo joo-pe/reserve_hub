@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:reserve_hub/component/common/blue_button.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class EnterMainScreen extends StatelessWidget {
+  const EnterMainScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
